@@ -4,9 +4,9 @@ class User < ApplicationRecord
 
   enum role: %i[customer driver admin]
   # Include default devise modules. Others available are:
-  #  :lockable, :timeoutable, and :omniauthable
+  #  :lockable, :confirmable, :trackable :timeoutable, and :omniauthable
   devise :database_authenticatable, :registerable,
-         :recoverable, :rememberable, :validatable, :confirmable, :trackable
+         :recoverable, :rememberable, :validatable
 
   ## NB ##
   ### updated permitted parameters for devise when going user wild

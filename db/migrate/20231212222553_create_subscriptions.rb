@@ -5,7 +5,9 @@ class CreateSubscriptions < ActiveRecord::Migration[7.0]
       t.integer :plan
       t.date :start_date
       t.integer :duration
-      t.string :subburb
+      t.string :suburb
+      t.string :street_address
+      t.string :access_code
       t.boolean :is_paused, null: false, default: false
       t.references :user, null: false, foreign_key: true
       t.string :customer_id

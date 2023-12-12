@@ -18,4 +18,12 @@ class Subscription < ApplicationRecord
   def wednesday?
     collection_day == 'Wednesday'
   end
+
+  def self.humanized_plans
+    {
+      once_off: 'Once Off',
+      standard: 'Standard',
+      XL: 'Extra Large'
+    }
+  end
 end
