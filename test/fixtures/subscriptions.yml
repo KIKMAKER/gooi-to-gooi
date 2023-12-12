@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  collection_day: 1
+  plan: 1
+  start_date: 2023-12-13
+  duration: 1
+  subburb: MyString
+  is_paused: false
+  user: one
+  customer_id: MyString
+  holiday_start: 2023-12-13
+  holiday_end: 2023-12-13
+
+two:
+  collection_day: 1
+  plan: 1
+  start_date: 2023-12-13
+  duration: 1
+  subburb: MyString
+  is_paused: false
+  user: two
+  customer_id: MyString
+  holiday_start: 2023-12-13
+  holiday_end: 2023-12-13

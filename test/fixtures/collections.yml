@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  time: 2023-12-13 00:30:47
+  note_from_kiki: MyString
+  message_from_alfred: MyString
+  bags: MyString
+  subscription: one
+  is_done: false
+  skip: false
+  needs_bags: false
+
+two:
+  time: 2023-12-13 00:30:47
+  note_from_kiki: MyString
+  message_from_alfred: MyString
+  bags: MyString
+  subscription: two
+  is_done: false
+  skip: false
+  needs_bags: false

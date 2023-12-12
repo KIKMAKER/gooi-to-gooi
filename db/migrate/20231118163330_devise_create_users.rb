@@ -6,7 +6,7 @@ class DeviseCreateUsers < ActiveRecord::Migration[7.0]
       ## gooiers also need:
       t.string :first_name
       t.string :last_name
-      t.string :role
+      t.integer :role
       ## Database authenticatable
       t.string :email,              null: false, default: ""
       t.string :encrypted_password, null: false, default: ""
